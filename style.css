@@ -1,6 +1,35 @@
 h1 {
   background-color:deepskyblue;
-  padding: 5%;
+  padding: 3%;
   color: white;
   text-align: center;
+  font-size: 350%;
+  margin: 0px;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  background-color: white;
+}
+  li a:hover:not(.active) {
+  background-color: deepskyblue;
+}
+li {
+  float: left;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+}
+
+h3 {
+  margin: 0px;
 }
