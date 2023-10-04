@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html>
-
+ 
+  <style>
+table, tr, td {
+  border:1px solid black;
+ }
+ </style>
 <head>
 
 
@@ -19,28 +24,81 @@
     </ul>
   </h2>
 
-  <h3 style="font-size:35px;">Gegevens van huis:</h2>
+  <h3 id=h3afspraak style="font-size:35px;" style="text-align:left;">Gegevens van huis:</h3>
 
-    <label style="font-size:25px;" for="vierkanteMeters">het aantal vereiste vierkante meters:</label>
-    <input type="text" id="vierkanteMeters" name="vierkanteMeters" required><br>
+ <table style="width:40%">
+   
+  <tr>
+    <td style="font-size:20px;">aantal vierkante meters</td>
+    <td> <input type="text"></td>
+  </tr>
 
-    <label style="font-size:25px;" for="locatie">locatie:</label>
-    <input type="text" id="locatie" name="locatie" required><br>
+   <tr>
+    <td>stad</td>
+    <td><input type="text"> </td>
+  </tr>
 
-    <label style="font-size:25px;" for="bouwjaar">Bouwjaar van het huis:</label>
-    <input type="text" id="bouwjaar" name="bouwjaar" required><br>
+  <tr>
+    <td>straatnaam en huisnummer</td>
+    <td><input type="text"> </td>
+  </tr>
 
-    <label style="font-size:25px;" for="langskomen">wanneer langskomen?:</label>
-    <input type="text" id="langskomen" name="langskomen" required><br>
+  <tr>
+    <td>postcode</td>
+    <td><input type="text"> </td>
+  </tr>
+   
+   <tr>
+    <td>bouwjaar van het huis</td>
+    <td> <input type="text"></td>
+  </tr>
 
-    <label style="font-size:25px;" for="voornaam">voornaam:</label>
-    <input type="text" id="voornaam" name="voornaam" required><br>
+   <tr>
+    <td>uw beschikbare dagen</td>
+    <td><input type="text"> </td>
+  </tr>
 
-    <label style="font-size:25px;" for="achternaam">achternaam:</label>
-    <input type="text" id="achternaam" name="achternaam" required><br>
+   <tr>
+    <td>voornaam</td>
+    <td> <input type="text"> </td>
+  </tr>
 
-    <label style="font-size:25px;" for="(optie) tussenvoegsel">voornaam:</label>
-    <input type="text" id="voornaam" name="voornaam" required><br>
+  <tr>
+    <td>tussenvoegsel (optioneel)</td>
+    <td> <input type="text"> </td>
+  </tr>
+
+  <tr>
+    <td> achternaam </td>
+    <td> <input type="text"> </td>
+  </tr>
+
+  <tr>
+    <td> leeftijd </td>
+    <td> <input type="text"> </td>
+  </tr>
+
+  <tr>
+    <td> e-mail </td>
+    <td> <input type="text"> </td>
+  </tr>
+
+  <tr>
+    <td> telefoonnummer </td>
+    <td> <input type="text"> </td>
+  </tr>
+
+  <tr>
+    <td> KVK nummer</td>
+    <td><input type="text"> </td>
+  </tr>
+
+  <tr>
+    <td>datum van versturen</td>
+    <td><input type="text"> </td>
+  </tr>
+   
+</table>
   </h3>
 
   <h4>

@@ -1,3 +1,22 @@
+#infobody {
+  background-color:deepskyblue;
+  margin:0px;
+}
+#h3info {
+margin:10px;
+}
+#h3afspraak {
+  text-align:left;
+  margin:20px;
+}
+
+
+#infoh4 {
+  float: left; 
+  margin:30px;
+  vertical-align: top;
+  margin:20px;
+}
 h1 {
   background-color:deepskyblue;
   padding: 3%;
@@ -18,7 +37,7 @@ li a {
   li a:hover:not(.active) {
   background-color: deepskyblue;
 }
-li {
+ul li {
   float: left;
 }
 
@@ -34,12 +53,12 @@ h2 {
   margin: 0px;
 }
 
-h3 {  margin:50px;
+h3 {  margin:0px;
 text-align:center;
+
 #vbhuis1 {
   width:30%;
   margin:0%;
-#
 
   
 }
