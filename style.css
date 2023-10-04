@@ -11,7 +11,7 @@ li a {
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 14px 62px;
   text-decoration: none;
   background-color: black;
 }
@@ -27,19 +27,19 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: white;
+  background-color: black;
 }
 
 h2 {
   margin: 0px;
 }
 
-h3 {
-  margin:0px;
-
+h3 {  margin:50px;
+text-align:center;
 #vbhuis1 {
   width:30%;
   margin:0%;
+#
 
   
 }
