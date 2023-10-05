@@ -10,12 +10,16 @@ margin:10px;
   margin:20px;
 }
 
-
 #infoh4 {
-  float: left; 
   margin:30px;
   vertical-align: top;
   margin:20px;
+}
+
+#kleurendiv img {
+  width: 100%;
+  height: 100%;
+  
 }
 h1 {
   background-color:deepskyblue;
@@ -30,7 +34,7 @@ li a {
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 62px;
+  padding: 14px 61px;
   text-decoration: none;
   background-color: black;
 }
@@ -53,22 +57,46 @@ h2 {
   margin: 0px;
 }
 
-h3 {  margin:0px;
-text-align:center;
-
 #vbhuis1 {
   width:30%;
   margin:0%;
-
-  
+  margin-left: 15%;
+  margin-top: 5%;
+  float: left;
 }
-h4 {
 
+#ph3 {
+  margin-left: 10%;
+  margin-top:12%;
+  float: left;
+  font-size: 150%;
+}
+
+#vbhuis2 {
+  width:30%;
+  margin:0%;
+  margin-left: 10%;
+  margin-top: 5%;
+  float: right;
+}
+
+#ph4 {
+  margin-left: 10%;
+  margin-top:12%;
+  float: left;
+  font-size: 150%;
+}
+
+#h3voorbeelden {
+}
+
+
+h4 {
   margin:0px;
 }
-  
-}
+#infoh5 
 {
-font-size:200%;
+font-size: 150%;
   
+  float: bottem; margin-bottom:20px  ;
 }
