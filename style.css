@@ -1,5 +1,6 @@
+
+
 #infobody {
-  background-color:deepskyblue;
   margin:0px;
 }
 #h3info {
@@ -30,7 +31,10 @@ margin:10px;
 
 #collegadiv img {
   width: 100%;
-  height: 100%; }
+  height: 100%;
+  margin-left: 12px ;
+  margin-top: 12px ;
+}
 h1 {
   background-color:deepskyblue;
   padding: 3%;
@@ -88,12 +92,29 @@ h2 {
   float: left;
   font-size: 150%;
 }
+
+#voorbeeldenph4 {
+  margin-left: 15%;
+  margin-top:12%;
+  font-size: 160%;
+  width: 40%;
+  float: left;
+}
+
 #voorbeeldenph5 {
   margin-left: 10%;
   margin-top:12%;
   margin-bottom: 5%;
   float: left;
-  font-size: 150%;
+  font-size: 146%;
+}
+
+#voorbeeldenph6 {
+  margin-left: 15%;
+  margin-top:6%;
+  font-size: 300%;
+  width: 40%;
+  float: left;
 }
 
 #vbhuis2 {
@@ -104,13 +125,7 @@ h2 {
   float: left;
 }
 
-#voorbeeldenph4 {
-  margin-left: 15%;
-  margin-top:12%;
-  font-size: 150%;
-  width: 40%;
-  float: left;
-}
+
 
 #h3voorbeelden ::after{
   clear: both;
@@ -122,6 +137,10 @@ h2 {
   clear: both;
   content:"";
   display: block;
+}
+
+#h5voorbeelden {
+font-size: 140%;
 }
 h4 {
   margin:0px;
@@ -136,9 +155,35 @@ font-size: 160%;
   margin-left: 0px;
   float: left;
 }
+#infodiv
+{
+float: left;
+  
+}
 
-#infoh6 {
-text-align: center; 
-  margin-top: 20px;
-text-align: top;
+
+#info6 {
+text-align: topcenter; 
+margin-top: 15px;
+  margin-left: 40px ;
+  font-size: 120%; 
+
+}
+
+#indexh3 {
+  margin:0px;
+}
+
+#indexh3 img{
+  width: 100% ;
+}
+
+body {
+  background-color: floralwhite
+}
+#solliciterenh6{
+font-size: 200%;
+
+
+  
 }
